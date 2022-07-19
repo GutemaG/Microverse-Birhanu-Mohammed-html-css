@@ -5,7 +5,6 @@
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
-
   <body>
     <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
     
@@ -16,26 +15,52 @@
       <nav id="nav-bar">
         <ul>
           <li>
-            <a href="#Features" class="nav-link">Features</a>
+            <a href="#features" class="nav-link">Features</a>
           </li>
           <li>
-            <a href="#How-It-Works" class="nav-link" >How It Works</a>
+            <a href="#how-it-works" class="nav-link" >How It Works</a>
           </li>
           <li>
-            <a href="#price" class="nav-link">Price</a>
+            <a href="#pricing" class="nav-link">Price</a>
           </li>
         </ul>
       </nav>
     </header>
     <div>
-      <form action="https://www.freecodecamp.com/email-submit">
-        <input type="email" id="email" placeholder="Enter your email">
-        <input id="submit" type="button" value="Submit" placeholder="Click Here">
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input name="email" type="email" id="email" placeholder="Enter your email">
+        <input id="submit" type="submit" value="Submit" placeholder="Click Here">
       </form>
     </div>
-    <div>
+    <section id="features"></section>
+
+    <section id="how-it-works">
       <iframe id="video" src="https://youtu.be/y8Yv4pnO7qc" frameborder="0"></iframe>
-    </div>
+    </section>
+
+    <section id="pricing">
+      <div class="product">
+        <h1>
+          Tenor Tombone
+        </h1>
+        <p>$600</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Quaerat eius culpa dolore animi veritatis 
+          a dolorem maiores perferendis. Repellendus, reiciendis!</p>
+      </div>
+      <div class="product">Bass Tombone
+        <p>$400</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Quaerat eius culpa dolore animi veritatis 
+          a dolorem maiores perferendis. Repellendus, reiciendis!</p>
+      </div>
+      <div class="product">Valve Tombone
+        <p>$500</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Quaerat eius culpa dolore animi veritatis 
+          a dolorem maiores perferendis. Repellendus, reiciendis!</p>
+      </div>
+    </section>
     <script  src="js/index.js"></script>
   </body>
 </html>
